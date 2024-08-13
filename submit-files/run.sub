@@ -2,12 +2,12 @@
 # Everything with a leading # is a comment
 
 universe                = docker
-docker_image            = docker.lsv.uni-saarland.de/htcondor-test:latest
+docker_image            = docker.lsv.uni-saarland.de/rkchikkala/htcondor-test:latest
 initialdir              = /nethome/rkchikkala/soft_ware_project/test_repo/htcondor-test
-executable              = /nethome/rkchikkala/projects/htcondor-test/scripts/run.sh
-output                  = /data/users/rkchikkala/logs/htcondor-test/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).out
-error                   = /data/users/rkchikkala/logs/htcondor-test/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).err
-log                     = /data/users/rkchikkala/logs/htcondor-test/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).log
+executable              = /nethome/rkchikkala/soft_ware_project/test_repo/htcondor-test/scripts/run.sh
+output                  = /data/users/rkchikkala/logs/soft_ware_project/test_repo/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).out
+error                   = /data/users/rkchikkala/logs/soft_ware_project/test_repo/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).err
+log                     = /data/users/rkchikkala/logs/soft_ware_project/test_repo/logfiles/run.sh.$(ClusterId).$(Year)_$(Month)_$(Day)_$(SUBMIT_TIME).log
 request_CPUs            = 1
 request_memory          = 10G
 request_GPUs            = 1
